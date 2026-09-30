@@ -1,0 +1,17 @@
+# Entorno: NUNCA versionar. Cada servicio tiene el suyo y llevan secretos.
+.env
+.env.local
+.env.*.local
+
+# Binarios compilados
+backend/api
+*.exe
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
